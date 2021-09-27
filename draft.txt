@@ -1,0 +1,18 @@
+<div class="serv-content">
+                <div class="col">
+                    <div class="serv">
+                        
+                    </div>
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <img src="/images/services.jpg" alt="">
+            </div>
+        </div>
