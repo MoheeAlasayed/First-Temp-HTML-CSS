@@ -40,6 +40,28 @@ body {
 }
 /* End Global Rules */
 /* Start Header */
+.start {
+    width: 75px;
+    height: 50px;
+    background-color: var(--main-color);
+    opacity: 7;
+    border-radius: 5px;
+    position: fixed;
+    text-align: center;
+    padding: 18px;
+    font-weight: bold;
+    right: 0;
+    top: 50%;
+    z-index: 5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.start a {
+    text-decoration: none;
+    color: white;
+}
 .header {
     padding: 20px;
 }
@@ -303,6 +325,10 @@ body {
     z-index: -1;
     right: -150px;
     
+}
+
+.about-content .about-txt {
+    flex-basis: calc(100% - 500px);
 }
 /* End About */
 
