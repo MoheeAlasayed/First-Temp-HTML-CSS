@@ -240,3 +240,70 @@ body {
 }
 
 /* End Services */
+/* Start Portfolio */
+.portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--second-color);
+}
+.portfolio .project {
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(300px,1fr));
+    grid-gap: 30px;
+    margin-top: 80px;
+}
+.portfolio .project .pro {
+    background-color: white;
+    
+}
+.portfolio .project .pro img{
+    width: 100%;
+}
+.portfolio .project .pro .pro-txt {
+    padding-left: 10px;
+}
+.portfolio .project .pro .pro-txt p{
+    color: #797979;
+    line-height: 1.8;
+}
+/* End  Portfolio */
+/* Start About */
+.about-content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-content .image {
+    position: relative;
+    width: 250px;
+    height: 375px;
+}
+.about-content .image img {
+    max-width: 100%;
+}
+.about-content .image::before{
+    content: '';
+    position: absolute;
+    background-color: #ebeced;
+    width: 80px;
+    height: calc(100% + 60px);
+    top: -30px;
+    left: -19px;
+    z-index: -1;
+}
+.about-content .image::after {
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    border-left: 80px solid var(--main-color);
+    border-bottom: 80px solid var(--main-color);
+    top: -30px;
+    z-index: -1;
+    right: -150px;
+    
+}
+/* End About */
+
+
